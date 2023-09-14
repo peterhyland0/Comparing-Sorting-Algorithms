@@ -17,7 +17,7 @@ I wrote another function evaluateallpartial(n,k,d,num,funcs), which does the sam
 To test chatGPTs accuracy for generating the most efficient version of an algorithm, I prompted chatGPT to give me all the sorting algorithms I needed and then i tested them with my code against my own version of the algorithms.
 ## Results
 
-Link to results breakdown <a href=[review_sorting_algo.docx](https://github.com/peterhyland0/Comparing-Sorting-Algorithms/files/12609784/review_sorting_algo.docx)>here</a>
+Link to results breakdown <a href='[review_sorting_algo.docx](https://github.com/peterhyland0/Comparing-Sorting-Algorithms/files/12609784/review_sorting_algo.docx)'>here</a>
 
 ![image](https://github.com/peterhyland0/Comparing-Sorting-Algorithms/assets/92451669/83cee8ec-6411-4f76-a3aa-04ba220a1f24)
 
