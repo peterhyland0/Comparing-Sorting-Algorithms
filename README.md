@@ -15,6 +15,8 @@ To see how the different algorithms scale with the size of the list, I created a
 I wrote another function evaluateallpartial(n,k,d,num,funcs), which does the same as evaluateall(...) above, but now sorts on partially sorted lists. Each list that is generated should first be sorted by python, and then instead of shuffling, for n//d times, two random items in the list are swapped. These partially sorted lists should then by copied and sent to the algorithms for evaluation.
 ### ChatGPT VS My algorithms
 To test chatGPTs accuracy for generating the most efficient version of an algorithm, I prompted chatGPT to give me all the sorting algorithms I needed and then i tested them with my code against my own version of the algorithms.
-##Results
+## Results
+![image](https://github.com/peterhyland0/Comparing-Sorting-Algorithms/assets/92451669/83cee8ec-6411-4f76-a3aa-04ba220a1f24)
+
 ![image](https://github.com/peterhyland0/Comparing-Sorting-Algorithms/assets/92451669/ac07c724-1ae1-49c3-baba-842fa114c465)
 
