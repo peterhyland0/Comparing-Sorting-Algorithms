@@ -1,4 +1,4 @@
-# Comparing-Sorting-Algorithms
+# Comparing Sorting Algorithms
 In this project I coded 4 different sorting algorithms: heap sort, merge sort, insertion sort, and quicksort. These sorting algorithms were tested using various length and randomizations of list to see which performed the best. I then tested chatGPT's versions of these algorithms against the initial versions to see which performed more efficently.
 ## Random Lists
 ### Testing list
@@ -13,4 +13,8 @@ I compare the runtimes of different algorithms. To be fair to each algorithm, I 
 To see how the different algorithms scale with the size of the list, I created an evaluate scale function that changes the length of the list when testing the algorithms.
 ### Partially Sorted Lists Performance
 I wrote another function evaluateallpartial(n,k,d,num,funcs), which does the same as evaluateall(...) above, but now sorts on partially sorted lists. Each list that is generated should first be sorted by python, and then instead of shuffling, for n//d times, two random items in the list are swapped. These partially sorted lists should then by copied and sent to the algorithms for evaluation.
+### ChatGPT VS My algorithms
+To test chatGPTs accuracy for generating the most efficient version of an algorithm, I prompted chatGPT to give me all the sorting algorithms I needed and then i tested them with my code against my own version of the algorithms.
+##Results
+![image](https://github.com/peterhyland0/Comparing-Sorting-Algorithms/assets/92451669/ac07c724-1ae1-49c3-baba-842fa114c465)
 
